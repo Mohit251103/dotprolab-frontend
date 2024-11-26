@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('/fonts/NeueMachina-Light.woff2') format('woff2'),
+    url('/fonts/NeueMachina-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('/fonts/NeueMachina-Regular.woff2') format('woff2'),
+    url('/fonts/NeueMachina-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('/fonts/NeueMachina-Ultrabold.woff2') format('woff2'),
+    url('/fonts/NeueMachina-Ultrabold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.gradient-yellow-white {
+  background: linear-gradient(96.31deg, #E4B40D 8.17%, rgba(255, 230, 143, 0.84) 110.82%);
+}
+
+.text-yellow {
+  color: #EDD955;
+}
+
+.scale-up {
+  transition: all;
+  transition-duration: 300ms;
+
+  &:hover {
+    scale: 1.05
+  }
+}
+
+.elipse-common {
+  border: 1px solid;
+  border-color: linear-gradient(93.63deg, #484848 5.36%, rgba(72, 72, 72, 0.36) 47.78%, #484848 91.69%);
+  border-radius: 100%;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 30%;
+  transform: rotate(14.21deg);
+  z-index: -1;
+}
+
+.elipse1 {
+  width: 2378.98px;
+  height: 1032.06px;
+  top: 2px;
+  left: -406.64px;
+
+}
+
+.elipse2 {
+  width: 1724.75px;
+  height: 748.24px;
+  top: 83.87px;
+  left: -254.37px;
+}
+
+.elipse3 {
+  width: 1187.08px;
+  height: 514.99px;
+  top: 179.93px;
+  left: -57.6px;
+}
+
+.glow-elipse{
+  width: 675px;
+  height: 314px;
+  background-color: #EDD955;
+  opacity: 30%;
+  border-radius: 100%;
+  /* filter: blur(150px); */
+}
