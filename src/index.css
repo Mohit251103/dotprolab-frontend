@@ -93,3 +93,10 @@
   border-radius: 100%;
   /* filter: blur(150px); */
 }
+
+.table-content{
+  height: 69px;
+  text-align: start;
+  color: #F0F0F0B2;
+  @apply p-6 text-xl
+}
