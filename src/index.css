@@ -31,6 +31,10 @@
   font-display: swap;
 }
 
+body, html{
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar{
   display: none;
 }

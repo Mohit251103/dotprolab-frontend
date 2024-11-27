@@ -31,7 +31,7 @@ const Faq = () => {
 
     ]
     return (
-        <div className="my-40 bg-[rgba(255,255,255,0.1)] backdrop-blur-xl flex-col divide-y max-w-[60vw] mx-auto rounded-xl">
+        <div id="faq" className="my-40 bg-[rgba(255,255,255,0.1)] backdrop-blur-xl flex-col divide-y max-w-[60vw] mx-auto rounded-xl">
             <p className="text-yellow text-4xl font-bold text-center font-neuemachina p-4">FAQs</p>
             {faq.map((item) => {
                 return (

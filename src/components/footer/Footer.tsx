@@ -1,13 +1,13 @@
 const Footer = () => {
     return (
-        <div className="w-full mt-24 bg-[#051422] p-6 font-raleway">
+        <div id="footer" className="w-full mt-24 bg-[#051422] p-6 font-raleway">
             <div className="w-[90%] flex justify-between items-center p-4 mx-auto">
                 <img src="/footer.png" alt="" className="w-[155px] h-[155px]"/>
                 <div className="flex font-extrabold text-lg gap-20">
                     <a href="#about" className="scale-up">About Us</a>
                     <a href="#" className="scale-up">Roadmap</a>
                     <a href="#faq" className="scale-up">FAQs</a>
-                    <a href="#contact" className="scale-up">Contact Us</a>
+                    <a href="#footer" className="scale-up">Contact Us</a>
                 </div>
                 <div className="flex flex-col justify-start items-center h-full">
                     <p className="text-3xl font-bold">Contact <span className="text-yellow">Us</span></p>
