@@ -3,7 +3,7 @@ const Why = () => {
     return (
         <div className="flex-col font-neuemachina items-start max-w-[90vw] mx-auto">
             <div className="w-full ml-8"><p className="text-5xl font-semibold">Why <span className="text-yellow">MoonEx</span> ?</p></div>
-            <div className="flex rounded-lg bg-[rgba(255,255,255,0.1)] backdrop-blur-xl w-full p-4 divide-x my-12">
+            <div className="flex rounded-xl bg-[rgba(255,255,255,0.1)] backdrop-blur-xl w-full p-4 divide-x my-12">
                 <div className="divide-y grow">
                     <p className="text-3xl font-semibold text-yellow h-[69px] flex justify-center items-center py-4">Comparison</p>
                     <p className="table-content ps-3  py-4">1. Point no one </p>
